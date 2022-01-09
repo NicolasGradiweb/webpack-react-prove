@@ -37,7 +37,7 @@ module.exports = {
     })
   ],
   devServer: {
-    contentBase: path.join(__dirname, 'dist'),
+    watchFiles: ['dist/'],
     compress: true,
     port: 3006
   }
